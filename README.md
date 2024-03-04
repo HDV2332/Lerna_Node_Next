@@ -19,4 +19,6 @@ In case the client or server sub-application requires additional package, follow
 - After installation has finished, move back to the root directory.
 - Run `npx learna clean -y`, this will clean up the node_modules folders of sub apps.
 
+### Special requirements.
+- Minimum Node.js version of 18.0.0 (currently using v18.19.0).
 
