@@ -9,6 +9,7 @@
 
 ### Getting the app up and running
 - In the root directory, `npm i` to install every required dependencies.
+- Run `npx learna clean -y`, this will clean up the node_modules folders of sub apps.
 - `npm run dev` to start up development environment.
 
 ### Installing additional packages and dependencies
@@ -21,4 +22,5 @@ In case the client or server sub-application requires additional package, follow
 
 ### Special requirements.
 - Minimum Node.js version of 18.0.0 (currently using v18.19.0).
+- In Dev environment, due to node version 17 and older, connect to MongoDB via "127.0.0.1" instead "localhost".
 
